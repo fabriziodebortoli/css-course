@@ -1,0 +1,9 @@
+@import '../../vars';
+@import '../../mixins';
+
+article{}
+article.special{}
+article h5{}
+article p{}
+article p>a{}
+article p>a:hover{}
