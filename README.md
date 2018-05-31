@@ -1,27 +1,57 @@
-# CssCourse
+- CSS base
+http://www.html.it/guide/guida-css-di-base/
+- a cosa servono i css
+- come si importano
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
+- sintassi
 
-## Development server
+- Angular -> style.scss
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- tag, id, class
 
-## Code scaffolding
+- unità di misura (px, em, %, rem)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- testo (font-family, font-size, font-weight, text-transformation, font-style, text-align, text-decoration)
 
-## Build
+- colore
+- background
+- cursor
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- raggruppare (h1, h2, h3), >, :hover, :first-child
+- ex: margin-top, bottom, ecc oppure shorthand
 
-## Running unit tests
+- Ereditarietà
+	body {color: #222;}
+	li {color: white;}
+	-------------------
+	p {color: black;}
+	.testo {color: white;}
+	
+- box-model
+	http://www.html.it/pag/14223/il-box-model/
+	
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+	
+- FLEXBOX
+	http://www.html.it/guide/flexbox-guida-pratica/
+	https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+	.flex-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-content: stretch;
+	}
+	
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- SCSS
+	- variabili
+	- abstraction ($primary-color: $green;)
+	- nesting
+	
+- Angular
+	- differenze tra style.css e css di componente
+	- ng-deep
+	- :host
+	- :host-context
+	
